@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD7982352B07B26D00284197 /* BudgetingTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7982342B07B26D00284197 /* BudgetingTips.swift */; };
+		AD7982372B07B36F00284197 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7982362B07B36F00284197 /* Analytics.swift */; };
+		ADD809152B6BE0E500B892BD /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = ADD809142B6BE0E500B892BD /* DGCharts */; };
 		ADE51EE32AE58CBA001EA894 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE51EE22AE58CBA001EA894 /* AppDelegate.swift */; };
 		ADE51EE52AE58CBA001EA894 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE51EE42AE58CBA001EA894 /* SceneDelegate.swift */; };
 		ADE51EE72AE58CBA001EA894 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE51EE62AE58CBA001EA894 /* ViewController.swift */; };
@@ -16,7 +19,6 @@
 		ADE51EFA2AE58CBE001EA894 /* BudgetPalApple4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE51EF92AE58CBE001EA894 /* BudgetPalApple4Tests.swift */; };
 		ADE51F042AE58CBE001EA894 /* BudgetPalApple4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE51F032AE58CBE001EA894 /* BudgetPalApple4UITests.swift */; };
 		ADE51F062AE58CBE001EA894 /* BudgetPalApple4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE51F052AE58CBE001EA894 /* BudgetPalApple4UITestsLaunchTests.swift */; };
-		ADE51F142AE5C1F7001EA894 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE51F132AE5C1F7001EA894 /* Analytics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD7982342B07B26D00284197 /* BudgetingTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetingTips.swift; sourceTree = "<group>"; };
+		AD7982362B07B36F00284197 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		ADE51EDF2AE58CBA001EA894 /* BudgetPalApple4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetPalApple4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE51EE22AE58CBA001EA894 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE51EE42AE58CBA001EA894 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +54,6 @@
 		ADE51EFF2AE58CBE001EA894 /* BudgetPalApple4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetPalApple4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE51F032AE58CBE001EA894 /* BudgetPalApple4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetPalApple4UITests.swift; sourceTree = "<group>"; };
 		ADE51F052AE58CBE001EA894 /* BudgetPalApple4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetPalApple4UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		ADE51F132AE5C1F7001EA894 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADD809152B6BE0E500B892BD /* DGCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +82,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADD809132B6BE0E500B892BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ADE51ED62AE58CB9001EA894 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,7 @@
 				ADE51EF82AE58CBE001EA894 /* BudgetPalApple4Tests */,
 				ADE51F022AE58CBE001EA894 /* BudgetPalApple4UITests */,
 				ADE51EE02AE58CBA001EA894 /* Products */,
+				ADD809132B6BE0E500B892BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +117,11 @@
 				ADE51EE42AE58CBA001EA894 /* SceneDelegate.swift */,
 				ADE51EE62AE58CBA001EA894 /* ViewController.swift */,
 				ADE51EE82AE58CBA001EA894 /* Main.storyboard */,
-				ADE51F132AE5C1F7001EA894 /* Analytics.swift */,
 				ADE51EEB2AE58CBE001EA894 /* Assets.xcassets */,
 				ADE51EED2AE58CBE001EA894 /* LaunchScreen.storyboard */,
 				ADE51EF02AE58CBE001EA894 /* Info.plist */,
+				AD7982342B07B26D00284197 /* BudgetingTips.swift */,
+				AD7982362B07B36F00284197 /* Analytics.swift */,
 			);
 			path = BudgetPalApple4;
 			sourceTree = "<group>";
@@ -146,6 +159,9 @@
 			dependencies = (
 			);
 			name = BudgetPalApple4;
+			packageProductDependencies = (
+				ADD809142B6BE0E500B892BD /* DGCharts */,
+			);
 			productName = BudgetPalApple4;
 			productReference = ADE51EDF2AE58CBA001EA894 /* BudgetPalApple4.app */;
 			productType = "com.apple.product-type.application";
@@ -266,8 +282,9 @@
 			files = (
 				ADE51EE72AE58CBA001EA894 /* ViewController.swift in Sources */,
 				ADE51EE32AE58CBA001EA894 /* AppDelegate.swift in Sources */,
-				ADE51F142AE5C1F7001EA894 /* Analytics.swift in Sources */,
 				ADE51EE52AE58CBA001EA894 /* SceneDelegate.swift in Sources */,
+				AD7982372B07B36F00284197 /* Analytics.swift in Sources */,
+				AD7982352B07B26D00284197 /* BudgetingTips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +636,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADD809142B6BE0E500B892BD /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADE51F122AE5BDE8001EA894 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADE51ED72AE58CB9001EA894 /* Project object */;
 }
